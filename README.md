@@ -1,4 +1,4 @@
-# azure-training
+# Azure-training
 
 ## 1.	Assigning roles at different scopes and Interpreting access assignments.
 
