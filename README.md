@@ -8,7 +8,7 @@
 •	Resource Group Level (applies to all resources in a specific resource group)
 •	Resource Level (applies to a single resource)
 ```
-## Implement and manage azure Policy
+## 2. Implement and manage azure Policy
 
 Policy for creation of resources only in specified regions
 
@@ -29,12 +29,12 @@ Policy for creation of resources only in specified regions
   }
 }
 ```
-## Configure resource locks
+## 3. Configure resource locks
 ```bash
 Create a lock for resource group then try to lock any resource or resource group.
 ```
 
-## Apply and manage tags on resources
+## 4. Apply and manage tags on resources
 
 
 ```bash
@@ -54,13 +54,13 @@ Create a lock for resource group then try to lock any resource or resource group
   }
 }
 ```
-## Manage resource groups
+## 5. Manage resource groups
 
 ```bash
 Create a rg and create few resources inside this and manage the rg by implementing locks, tags to rg, rg locking, Migrating resources from one RG to other.
 ```
 
-## Manage costs by using alerts, budgets, and Azure Advisor recommendations
+## 6. Manage costs by using alerts, budgets, and Azure Advisor recommendations
 ```bash
 Have a walkthrough on cost explorer, how to set alerts, how to create budget alerts?
 ```
