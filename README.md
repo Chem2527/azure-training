@@ -57,7 +57,7 @@ Create a lock for resource group then try to lock any resource or resource group
 ## 5. Manage resource groups
 
 ```bash
-Create a rg and create few resources inside this and manage the rg by implementing locks, tags to rg, rg locking, Migrating resources from one RG to other.
+Create a rg and create few resources inside this and manage the rg by implementing locks, tags to rg,Migrating resources from one RG to other.
 ```
 
 ## 6. Manage costs by using alerts, budgets, and Azure Advisor recommendations
