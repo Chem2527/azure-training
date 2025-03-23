@@ -73,7 +73,7 @@ Understand what a management group means and what it its hierarchy level.
 ```bash
 Create a azure storage account & play withit.  
 ```
-**Link for doownloading and installing azure cli**
+**Link for doownloading & installing azure cli**
 ```bash
 ( https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?pivots=msi#install-or-update )
 ```
