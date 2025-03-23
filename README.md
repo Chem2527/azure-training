@@ -64,3 +64,53 @@ Create a rg and create few resources inside this and manage the rg by implementi
 ```bash
 Have a walkthrough on cost explorer, how to set alerts, how to create budget alerts?
 ```
+
+## 7. 	Configure management groups
+```bash
+Understand what a management group means and what it its hierarchy level.
+```
+## 8. Configure access to storage
+```bash
+Create a azure storage account & play withit.
+```
+## 9. 	Configure Azure Storage firewalls and virtual networks
+
+Use  Azure Storage firewalls and virtual networks in config of storage account and check whether from outside of vnet are we able to access the blobs,files,tables…  or not &  also check whether we can access within vnet or not.
+
+![image](https://github.com/user-attachments/assets/682acb7f-4f0c-4a5d-9256-eee9fbf31704)
+```bash
+curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash ## (It downloads and runs a script that installs the Azure Command-Line Interface (CLI) for Debian-based Linux distributions)
+```
+```bash
+az storage container list --account-name <account name> --account-key <access key> ## (It retrieves and lists all the storage containers in the specified Azure Storage account by authenticating using the provided account name and access key)
+```
+```bash
+az storage container create --name <name of container tht we wanna create> --account-name <storage acc. name> --account-key <access key>
+```
+```bash
+az storage container list --account-name <account name> --account-key <access key>
+```
+
+## 10. Create and use shared access signature (SAS) tokens
+
+**Create storage account and generate SAS and access the blobs using SAS in the below format**
+
+```bash
+https://<storage-account-name>.blob.core.windows.net/<container-name>/<blob-name>?<SAS-token>
+```
+## 11. Configure stored access policies
+
+**Create storage account and create stored access policies  and generate SAS using stored access policies and access the blobs**
+
+ **Access the blobs using below format**
+ ```bash
+https://<storage-account-name>.blob.core.windows.net/<container-name>/<blob-name>?<SAS-token>
+```
+## 12.	Manage access keys
+
+**Rotate keys for every 3 months or 1 year for security purpose and after rotation check whether we are able to view or access the same.**
+
+```bash
+az storage blob list --account-name <storage account name> --container-name <container name> --account-key <access key>
+```
+
