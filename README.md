@@ -71,8 +71,13 @@ Understand what a management group means and what it its hierarchy level.
 ```
 ## 8. Configure access to storage
 ```bash
-Create a azure storage account & play withit. ## (use https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?pivots=msi#install-or-update for installing az cli)
+Create a azure storage account & play withit.  
 ```
+**Link for doownloading and installing azure cli**
+```bash
+( https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?pivots=msi#install-or-update )
+```
+
 ## 9. 	Configure Azure Storage firewalls and virtual networks
 
 Use  Azure Storage firewalls and virtual networks in config of storage account and check whether from outside of vnet are we able to access the blobs,files,tables…  or not &  also check whether we can access within vnet or not.
