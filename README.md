@@ -71,7 +71,7 @@ Understand what a management group means and what it its hierarchy level.
 ```
 ## 8. Configure access to storage
 ```bash
-Create a azure storage account & play withit.
+Create a azure storage account & play withit. ## (use https://learn.microsoft.com/en-us/cli/azure/install-azure-cli-windows?pivots=msi#install-or-update for installing az cli)
 ```
 ## 9. 	Configure Azure Storage firewalls and virtual networks
 
