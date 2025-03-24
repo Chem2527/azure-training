@@ -5,11 +5,12 @@
 
 **storage account name must be unique globally**
 storage types under storage account 
+```bash
 1.blob
 2.file
 3.table
 4. queue
-
+```
 ```bash
 ZRS------- It replicates your data across multiple availability zones within a region.
 LRS ------ Data is replicated within a single region across multiple fault domains (usually 3 copies).
