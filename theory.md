@@ -6,10 +6,10 @@
 **storage account name must be unique globally**
 storage types under storage account 
 ```bash
-1.blob
-2.file
-3.table
-4. queue
+1.Blob: Designed for storing large amounts of unstructured data like text, images, videos, and backups
+2.File:It is used to store files that need to be shared across multiple systems, just like a traditional file system. It supports the SMB protocol.
+3.Table: designed for storing large amounts of structured data in the form of key-value pairs.
+4. queue: Used for storing messages that help different parts of an application communicate and work independently.
 ```
 ```bash
 ZRS------- It replicates your data across multiple availability zones within a region.
