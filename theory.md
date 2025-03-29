@@ -28,6 +28,15 @@ cold storage:  data that is for rarely accessed  that needs fast retrieval ## (F
 Archive storage:  data that is rarely accessed and can tolerate very long access times ##(180 days )
 
 Delete blobs after 2,555 days (approximately 7 years) of last modification
+```
+## Template format
+```
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/6175e4f3-1050-4597-94a0-eeb737ad0c23" />
 
+
+$schema	Yes ##  (used for validating deployment templates in Azure.) 
+contentVersion	Yes ## (Version of the template)
+
+resources	Yes
 ```
 
