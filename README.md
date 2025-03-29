@@ -119,3 +119,13 @@ https://<storage-account-name>.blob.core.windows.net/<container-name>/<blob-name
 az storage blob list --account-name <storage account name> --container-name <container name> --account-key <access key>
 ```
 
+## 13. Create and configure storage accounts, Configure Azure Storage redundancy, Manage data by using Azure Storage Explorer and AzCopy
+```bash
+Download link for storage explorer:  https://learn.microsoft.com/en-us/azure/storage/common/storage-use-azcopy-v10?tabs=dnf
+
+azcopy copy "<filepath>" "https://mystorageaccount.blob.core.windows.net/mycontainer?<SAS_Token>"
+
+```
+## 14. Create and configure a file share in Azure Storage, Create and configure a container in Blob Storage, Configure storage tiers, Configure snapshots and soft delete for Azure Files, Configure blob lifecycle management, Configure blob versioning
+
+
