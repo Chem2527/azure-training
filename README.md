@@ -128,4 +128,6 @@ azcopy copy "<filepath>" "https://mystorageaccount.blob.core.windows.net/myconta
 ```
 ## 14. Create and configure a file share in Azure Storage, Create and configure a container in Blob Storage, Configure storage tiers, Configure snapshots and soft delete for Azure Files, Configure blob lifecycle management, Configure blob versioning
 
+## 15.  Create a teamplate and deploy any resource using ARM.
+
 
