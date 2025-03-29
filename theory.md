@@ -18,4 +18,16 @@ GRS------ It replicates your data to a secondary region for disaster recovery, e
 RA-GRS----This can be useful if you need to access your data even during regional outages but don't need to write to it.
 ```
 
+```bash
+Hot: Frequently accessed data(first 30 days)
+
+cool storage:  It is for infrequently accessed data needing storage for at least 30 days ##(Hot to Cool Storage: Move blobs to cool after 30 days of last modification)
+
+cold storage:  data that is for rarely accessed  that needs fast retrieval ## (For very infrequently accessed data with long-term retention ( 90 days)
+
+Archive storage:  data that is rarely accessed and can tolerate very long access times ##(180 days )
+
+Delete blobs after 2,555 days (approximately 7 years) of last modification
+
+```
 
