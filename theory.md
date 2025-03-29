@@ -31,7 +31,8 @@ Delete blobs after 2,555 days (approximately 7 years) of last modification
 ```
 ## Template format
 ```bash
-<img width="458" alt="image" src="https://github.com/user-attachments/assets/6175e4f3-1050-4597-94a0-eeb737ad0c23" />
+<img width="458" alt="image" src="https://github.com/user-attachments/assets/e97718a9-f93d-4c9b-a92d-68eb436891e6" />
+
 
 
 $schema	Yes ##  (used for validating deployment templates in Azure.) 
